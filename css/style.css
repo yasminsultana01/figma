@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: auto;
+  width: 1170px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.align-center {
+  align-items: center;
+}
+.heading h2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #f8991c;
+}
+.heading h1 {
+  color: #000000;
+  font-size: 28px;
+  font-weight: 500;
+}
+.button {
+  background-color: #f8991c;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 6px;
+  color: white;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Open Sans";
+}
+/* nav starts */
+nav .logo {
+  width: 30%;
+}
+nav .menu {
+  width: 70%;
+}
+nav .menu ul {
+  text-align: right;
+}
+nav .menu ul li {
+  display: block;
+}
+nav .menu ul li a {
+  display: inline-block;
+  padding: 50px 30px;
+}
+/* nav ends */
+/* banner starts */
+#banner {
+  background-color: #f8f8f8;
+  height: 650px;
+}
+#banner .banner-text {
+  width: 60%;
+  padding: 219px 0;
+}
+#banner .banner-img {
+  width: 40%;
+}
+#banner .banner-text h3 {
+  font-family: open Sans;
+  font-weight: 400;
+  font-size: 28px;
+  color: #000000;
+}
+#banner .banner-text h1 {
+  font-family: Open Sans;
+  font-size: 45px;
+  font-weight: 700;
+  color: #000000;
+}
+#banner .banner-text p {
+  font-family: Open Sans;
+  font-size: 28px;
+  font-weight: 400;
+}
+#banner .banner-text a {
+  margin-top: 35px;
+}
+#banner .banner-text .follow p {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+.banner-text .follow {
+  position: relative;
+  margin-top: 170px;
+  width: 200px;
+}
+.banner-text .follow .overlay-icon {
+  position: absolute;
+  top: -30px;
+  right: 36px;
+  margin-bottom: 95px;
+}
+/* banner ends */
+/* about stars  */
+#about {
+  padding: 80px 0;
+}
+#about .about-img {
+  width: 40%;
+}
+#about .about-text {
+  width: 60%;
+}
+#about .about-text h4 {
+  color: #f8991c;
+  font-size: 16px;
+  font-weight: 700;
+}
+#about .about-text h1 {
+  font-size: 28px;
+  font-weight: 600;
+  padding: 35px 0;
+}
+#about .about-text p {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: justify;
+}
+#about .about-text ul li {
+  padding: 45px 0;
+}
+/* #about .about-text ul li {
+  color: #000;
+  background-color: white;
+
+  border: 1px solid #F8991C
+} */
+
+/* about ends  */
+/* specializing starts */
+#specializing {
+  background-color: #f8f8f8;
+}
+#specializing .design-card1 {
+  width: 33.33%;
+}
+
+#specializing .design-card1 h2 {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+#specializing .design-card1 p {
+  font-weight: 400;
+  font-size: 16px;
+}
+/* specializing ends */
